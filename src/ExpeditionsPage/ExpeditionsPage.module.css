@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.ExpeditionItem {
+  background-color: aliceblue;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  box-shadow: black 1px 1px 0px 0px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.ExpeditionItemRow {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  column-gap: 30px;
+}
+
+.ExpeditionsHeader {
+  display: flex;
+  align-items: center;
+}
